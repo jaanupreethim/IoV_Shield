@@ -1,0 +1,248 @@
+{
+    "confidence_entropy_diagnostics": {
+        "L1_vehicle": {
+            "counts": {
+                "true_benign_a": 183561,
+                "attacks_detected_b": 25787,
+                "attacks_missed_c": 1885
+            },
+            "confidence_dist": {
+                "a_true_benign": {
+                    "count": 183561,
+                    "mean": 0.9915184269038586,
+                    "std": 0.03339863412382709,
+                    "q25": 1.0,
+                    "median": 1.0,
+                    "q75": 1.0,
+                    "q90": 1.0,
+                    "q99": 1.0
+                },
+                "b_detected_attack": {
+                    "count": 25787,
+                    "mean": 1.0,
+                    "std": 0.0,
+                    "q25": 1.0,
+                    "median": 1.0,
+                    "q75": 1.0,
+                    "q90": 1.0,
+                    "q99": 1.0
+                },
+                "c_missed_attack": {
+                    "count": 1885,
+                    "mean": 0.8569357757721392,
+                    "std": 0.03936053800162793,
+                    "q25": 0.8768441727478284,
+                    "median": 0.8768441727478284,
+                    "q75": 0.8768441727478284,
+                    "q90": 0.8768441727478284,
+                    "q99": 0.8768441727478284
+                }
+            },
+            "entropy_dist": {
+                "a_true_benign": {
+                    "count": 183561,
+                    "mean": 0.03577295079474901,
+                    "std": 0.13809839087734185,
+                    "q25": -1.4428232973175175e-12,
+                    "median": -1.4428232973175175e-12,
+                    "q75": -1.4428232973175175e-12,
+                    "q90": 0.0016849071022390677,
+                    "q99": 0.5383646704665136
+                },
+                "b_detected_attack": {
+                    "count": 25787,
+                    "mean": -1.4428232973175175e-12,
+                    "std": 0.0,
+                    "q25": -1.4428232973175175e-12,
+                    "median": -1.4428232973175175e-12,
+                    "q75": -1.4428232973175175e-12,
+                    "q90": -1.4428232973175175e-12,
+                    "q99": -1.4428232973175175e-12
+                },
+                "c_missed_attack": {
+                    "count": 1885,
+                    "mean": 0.583876785420514,
+                    "std": 0.08998119398407038,
+                    "q25": 0.5383646704665136,
+                    "median": 0.5383646704665136,
+                    "q75": 0.5383646704665136,
+                    "q90": 0.7617770055922698,
+                    "q99": 0.7617770055922698
+                }
+            },
+            "auc_separating_c_from_a": {
+                "auc_uncertainty_score": 0.9713733364274414,
+                "auc_entropy_score": 0.9713733364274414
+            }
+        },
+        "L2_rsu": {
+            "counts": {
+                "true_benign_a": 183424,
+                "attacks_detected_b": 25434,
+                "attacks_missed_c": 2238
+            },
+            "confidence_dist": {
+                "a_true_benign": {
+                    "count": 183424,
+                    "mean": 0.990990396256758,
+                    "std": 0.0473407667638293,
+                    "q25": 1.0,
+                    "median": 1.0,
+                    "q75": 1.0,
+                    "q90": 1.0,
+                    "q99": 1.0
+                },
+                "b_detected_attack": {
+                    "count": 25434,
+                    "mean": 0.9956632393910787,
+                    "std": 0.02457730183660465,
+                    "q25": 1.0,
+                    "median": 1.0,
+                    "q75": 1.0,
+                    "q90": 1.0,
+                    "q99": 1.0
+                },
+                "c_missed_attack": {
+                    "count": 2238,
+                    "mean": 0.7421474508437759,
+                    "std": 0.005387075948564659,
+                    "q25": 0.7420335517925732,
+                    "median": 0.7420335517925732,
+                    "q75": 0.7420335517925732,
+                    "q90": 0.7420335517925732,
+                    "q99": 0.7420335517925732
+                }
+            },
+            "entropy_dist": {
+                "a_true_benign": {
+                    "count": 183424,
+                    "mean": 0.02881481199214199,
+                    "std": 0.15115170489934013,
+                    "q25": -1.4428232973175175e-12,
+                    "median": -1.4428232973175175e-12,
+                    "q75": -1.4428232973175175e-12,
+                    "q90": -1.4428232973175175e-12,
+                    "q99": 0.8236621845189906
+                },
+                "b_detected_attack": {
+                    "count": 25434,
+                    "mean": 0.01792557710012143,
+                    "std": 0.10158788062088693,
+                    "q25": -1.4428232973175175e-12,
+                    "median": -1.4428232973175175e-12,
+                    "q75": -1.4428232973175175e-12,
+                    "q90": -1.4428232973175175e-12,
+                    "q99": 0.5936446979167673
+                },
+                "c_missed_attack": {
+                    "count": 2238,
+                    "mean": 0.8233075405047835,
+                    "std": 0.0167735746616703,
+                    "q25": 0.8236621845189906,
+                    "median": 0.8236621845189906,
+                    "q75": 0.8236621845189906,
+                    "q90": 0.8236621845189906,
+                    "q99": 0.8236621845189906
+                }
+            },
+            "auc_separating_c_from_a": {
+                "auc_uncertainty_score": 0.9825430288299636,
+                "auc_entropy_score": 0.9825430288299636
+            }
+        }
+    },
+    "missed_patterns_analysis": {
+        "L1_vehicle": {
+            "DoS": {
+                "total_packets": 11199,
+                "missed_packets": 384,
+                "miss_rate_percent": 3.428877578355211,
+                "unique_patterns_in_class": 20,
+                "unique_patterns_missed": 1
+            },
+            "Gas": {
+                "total_packets": 1499,
+                "missed_packets": 1499,
+                "miss_rate_percent": 100.0,
+                "unique_patterns_in_class": 2,
+                "unique_patterns_missed": 2
+            },
+            "RPM": {
+                "total_packets": 8235,
+                "missed_packets": 1,
+                "miss_rate_percent": 0.012143290831815423,
+                "unique_patterns_in_class": 10,
+                "unique_patterns_missed": 1
+            },
+            "Speed": {
+                "total_packets": 3742,
+                "missed_packets": 0,
+                "miss_rate_percent": 0.0,
+                "unique_patterns_in_class": 5,
+                "unique_patterns_missed": 0
+            },
+            "SW": {
+                "total_packets": 2997,
+                "missed_packets": 1,
+                "miss_rate_percent": 0.033366700033366704,
+                "unique_patterns_in_class": 3,
+                "unique_patterns_missed": 1
+            }
+        },
+        "L2_rsu": {
+            "DoS": {
+                "total_packets": 11199,
+                "missed_packets": 0,
+                "miss_rate_percent": 0.0,
+                "unique_patterns_in_class": 20,
+                "unique_patterns_missed": 0
+            },
+            "Gas": {
+                "total_packets": 1499,
+                "missed_packets": 1499,
+                "miss_rate_percent": 100.0,
+                "unique_patterns_in_class": 2,
+                "unique_patterns_missed": 2
+            },
+            "RPM": {
+                "total_packets": 8235,
+                "missed_packets": 1,
+                "miss_rate_percent": 0.012143290831815423,
+                "unique_patterns_in_class": 10,
+                "unique_patterns_missed": 1
+            },
+            "Speed": {
+                "total_packets": 3742,
+                "missed_packets": 737,
+                "miss_rate_percent": 19.695350080171032,
+                "unique_patterns_in_class": 5,
+                "unique_patterns_missed": 1
+            },
+            "SW": {
+                "total_packets": 2997,
+                "missed_packets": 1,
+                "miss_rate_percent": 0.033366700033366704,
+                "unique_patterns_in_class": 3,
+                "unique_patterns_missed": 1
+            }
+        }
+    },
+    "leave_pattern_out_generalization": {
+        "DoS": {
+            "total_unique_patterns": 21,
+            "patterns_held_out": 5,
+            "test_rows_matching_held_out": 2560,
+            "test_rows_matching_trained": 8639,
+            "recall_on_held_out_patterns": 1.0,
+            "recall_on_seen_patterns": 1.0
+        },
+        "RPM": {
+            "total_unique_patterns": 10,
+            "patterns_held_out": 3,
+            "test_rows_matching_held_out": 2932,
+            "test_rows_matching_trained": 5303,
+            "recall_on_held_out_patterns": 0.2486357435197817,
+            "recall_on_seen_patterns": 1.0
+        }
+    }
+}

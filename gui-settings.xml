@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewsettings>
+    <scheme name="real world"/>
+    <viewport zoom="55" x="1000" y="110"/>
+    <delay value="40"/>
+    <decal file="" centerX="1000" centerY="110" width="2200" height="400" altitude="0" rotation="0" tilt="0" roll="0" layer="0" screenRelative="false"/>
+</viewsettings>

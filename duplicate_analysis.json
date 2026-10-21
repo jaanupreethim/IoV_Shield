@@ -1,0 +1,68 @@
+{
+    "Benign": {
+        "total_rows": 1223737,
+        "unique_patterns": 3547,
+        "dropped_if_dedup": 1220190,
+        "drop_percent": 99.7101501384693,
+        "train_rows": 856615,
+        "test_rows": 183561,
+        "test_rows_in_train": 183110,
+        "pct_test_in_train": 99.75430510838359,
+        "novel_test_rows": 451
+    },
+    "DoS": {
+        "total_rows": 74663,
+        "unique_patterns": 21,
+        "dropped_if_dedup": 74642,
+        "drop_percent": 99.97187361879378,
+        "train_rows": 52264,
+        "test_rows": 11199,
+        "test_rows_in_train": 11199,
+        "pct_test_in_train": 100.0,
+        "novel_test_rows": 0
+    },
+    "RPM": {
+        "total_rows": 54900,
+        "unique_patterns": 10,
+        "dropped_if_dedup": 54890,
+        "drop_percent": 99.98178506375228,
+        "train_rows": 38430,
+        "test_rows": 8235,
+        "test_rows_in_train": 8235,
+        "pct_test_in_train": 100.0,
+        "novel_test_rows": 0
+    },
+    "Speed": {
+        "total_rows": 24951,
+        "unique_patterns": 5,
+        "dropped_if_dedup": 24946,
+        "drop_percent": 99.97996072301711,
+        "train_rows": 17466,
+        "test_rows": 3742,
+        "test_rows_in_train": 3742,
+        "pct_test_in_train": 100.0,
+        "novel_test_rows": 0
+    },
+    "SW": {
+        "total_rows": 19977,
+        "unique_patterns": 3,
+        "dropped_if_dedup": 19974,
+        "drop_percent": 99.98498273013966,
+        "train_rows": 13984,
+        "test_rows": 2997,
+        "test_rows_in_train": 2997,
+        "pct_test_in_train": 100.0,
+        "novel_test_rows": 0
+    },
+    "Gas": {
+        "total_rows": 9991,
+        "unique_patterns": 2,
+        "dropped_if_dedup": 9989,
+        "drop_percent": 99.97998198378541,
+        "train_rows": 6994,
+        "test_rows": 1499,
+        "test_rows_in_train": 1499,
+        "pct_test_in_train": 100.0,
+        "novel_test_rows": 0
+    }
+}

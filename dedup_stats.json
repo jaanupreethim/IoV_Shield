@@ -1,0 +1,20 @@
+{
+    "Benign": {
+        "dropped": 1220190
+    },
+    "DoS": {
+        "dropped": 74642
+    },
+    "RPM": {
+        "dropped": 54890
+    },
+    "Speed": {
+        "dropped": 24946
+    },
+    "SW": {
+        "dropped": 19974
+    },
+    "Gas": {
+        "dropped": 9989
+    }
+}

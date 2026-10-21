@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Bright Yellow Commuters & Red Attacker Vehicles -->
+    <vType id="vtype_yellow" accel="2.6" decel="4.5" length="5.5" width="2.6" minGap="3.0" maxSpeed="14.0" color="241,196,15"/>
+    <vType id="vtype_red_attacker" accel="2.8" decel="4.5" length="5.8" width="2.6" minGap="3.0" maxSpeed="15.0" color="231,76,60"/>
+
+    <!-- 4 Direct Routes across the intersection -->
+    <route id="r_w_to_e" edges="w_to_c c_to_e"/>
+    <route id="r_e_to_w" edges="e_to_c c_to_w"/>
+    <route id="r_s_to_n" edges="s_to_c c_to_n"/>
+    <route id="r_n_to_s" edges="n_to_c c_to_s"/>
+
+    <!-- Continuous Flows -->
+    <flow id="flow_w_e_yellow" type="vtype_yellow" route="r_w_to_e" begin="0" end="10000" period="6" departLane="0" departSpeed="10.0"/>
+    <flow id="flow_e_w_yellow" type="vtype_yellow" route="r_e_to_w" begin="2" end="10000" period="7" departLane="0" departSpeed="10.0"/>
+    <flow id="flow_s_n_yellow" type="vtype_yellow" route="r_s_to_n" begin="1" end="10000" period="7" departLane="0" departSpeed="10.0"/>
+    <flow id="flow_n_s_yellow" type="vtype_yellow" route="r_n_to_s" begin="3" end="10000" period="8" departLane="0" departSpeed="10.0"/>
+
+    <!-- Intermittent Attacker Vehicles -->
+    <flow id="flow_attacker_e" type="vtype_red_attacker" route="r_w_to_e" begin="8" end="10000" period="20" departLane="0" departSpeed="11.0"/>
+    <flow id="flow_attacker_n" type="vtype_red_attacker" route="r_s_to_n" begin="15" end="10000" period="22" departLane="0" departSpeed="11.0"/>
+</routes>

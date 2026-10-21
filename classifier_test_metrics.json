@@ -1,0 +1,514 @@
+{
+    "L1_vehicle": {
+        "level_name": "L1_vehicle",
+        "n_features": 11,
+        "feature_list": [
+            "DATA_316",
+            "DATA_116",
+            "DATA_015",
+            "DATA_012",
+            "ID14",
+            "DATA_19",
+            "DATA_615",
+            "DATA_611",
+            "ID8",
+            "DATA_010",
+            "DATA_315"
+        ],
+        "multiclass": {
+            "accuracy": 0.9910762049490374,
+            "macro_precision": 0.9949176579705143,
+            "macro_recall": 0.9659403006649321,
+            "macro_f1": 0.9798155143841163,
+            "weighted_precision": 0.9911669125063375,
+            "weighted_recall": 0.9910762049490374,
+            "weighted_f1": 0.990941668195739,
+            "confusion_matrix": [
+                [
+                    183561,
+                    0
+                ],
+                [
+                    1885,
+                    25787
+                ]
+            ],
+            "classes": [
+                "Benign",
+                "Attack"
+            ],
+            "per_class": {
+                "Benign": {
+                    "precision": 0.9898353159410287,
+                    "recall": 1.0,
+                    "f1_score": 0.9948916958214885,
+                    "support": 183561
+                },
+                "Attack": {
+                    "precision": 1.0,
+                    "recall": 0.9318806013298642,
+                    "f1_score": 0.9647393329467442,
+                    "support": 27672
+                }
+            }
+        },
+        "binary_detection": {
+            "accuracy": 0.9910762049490374,
+            "precision": 1.0,
+            "recall": 0.9318806013298642,
+            "false_negative_rate": 0.06811939867013588,
+            "f1_score": 0.9647393329467443,
+            "tp": 25787,
+            "fp": 0,
+            "tn": 183561,
+            "fn": 1885
+        },
+        "latency": {
+            "single_latency_ms": 47.65665949998947,
+            "single_latency_us": 47656.65949998947
+        },
+        "training_time_sec": 9.52292251586914,
+        "cv_10fold_accuracy_mean": 0.9911346960890466,
+        "cv_10fold_accuracy_std": 0.00010835080520192044,
+        "novel_rows_evaluation": {
+            "n_novel_total": 451,
+            "class_novel_counts": {
+                "Benign": 451
+            },
+            "novel_multiclass_accuracy": 1.0,
+            "novel_binary_tp": 0,
+            "novel_binary_fp": 0,
+            "novel_binary_tn": 451,
+            "novel_binary_fn": 0,
+            "novel_recall": 0.0,
+            "novel_fnr": 0.0,
+            "novel_benign_accuracy": 1.0
+        }
+    },
+    "L2_rsu": {
+        "level_name": "L2_rsu",
+        "n_features": 11,
+        "feature_list": [
+            "ID11",
+            "ID15",
+            "DATA_316",
+            "DATA_311",
+            "ID14",
+            "DATA_616",
+            "ID8",
+            "ID16",
+            "DATA_19",
+            "DATA_015",
+            "ID13"
+        ],
+        "multiclass": {
+            "accuracy": 0.988756491646665,
+            "macro_precision": 0.9919534817953979,
+            "macro_recall": 0.9544649920873925,
+            "macro_f1": 0.9715360365758204,
+            "weighted_precision": 0.9888842249790456,
+            "weighted_recall": 0.988756491646665,
+            "weighted_f1": 0.9884043731362484,
+            "confusion_matrix": [
+                [
+                    183424,
+                    137,
+                    0
+                ],
+                [
+                    0,
+                    11199,
+                    0
+                ],
+                [
+                    2238,
+                    0,
+                    14235
+                ]
+            ],
+            "classes": [
+                "Benign",
+                "DoS",
+                "Spoofing"
+            ],
+            "per_class": {
+                "Benign": {
+                    "precision": 0.9879458370587412,
+                    "recall": 0.9992536540986375,
+                    "f1_score": 0.9935675729843482,
+                    "support": 183561
+                },
+                "DoS": {
+                    "precision": 0.9879146083274524,
+                    "recall": 1.0,
+                    "f1_score": 0.993920568005325,
+                    "support": 11199
+                },
+                "Spoofing": {
+                    "precision": 1.0,
+                    "recall": 0.8641413221635403,
+                    "f1_score": 0.9271199687377882,
+                    "support": 16473
+                }
+            }
+        },
+        "binary_detection": {
+            "accuracy": 0.988756491646665,
+            "precision": 0.9946423683078487,
+            "recall": 0.9191240242844753,
+            "false_negative_rate": 0.08087597571552471,
+            "f1_score": 0.9553931972278046,
+            "tp": 25434,
+            "fp": 137,
+            "tn": 183424,
+            "fn": 2238
+        },
+        "latency": {
+            "single_latency_ms": 70.69714850003948,
+            "single_latency_us": 70697.14850003948
+        },
+        "training_time_sec": 13.556754350662231,
+        "cv_10fold_accuracy_mean": 0.9887730499456566,
+        "cv_10fold_accuracy_std": 0.00020221603819983003,
+        "novel_rows_evaluation": {
+            "n_novel_total": 451,
+            "class_novel_counts": {
+                "Benign": 451
+            },
+            "novel_multiclass_accuracy": 1.0,
+            "novel_binary_tp": 0,
+            "novel_binary_fp": 0,
+            "novel_binary_tn": 451,
+            "novel_binary_fn": 0,
+            "novel_recall": 0.0,
+            "novel_fnr": 0.0,
+            "novel_benign_accuracy": 1.0
+        }
+    },
+    "L3_nearedge": {
+        "level_name": "L3_nearedge",
+        "n_features": 18,
+        "feature_list": [
+            "ID11",
+            "DATA_116",
+            "ID9",
+            "ID13",
+            "DATA_114",
+            "ID14",
+            "DATA_615",
+            "ID8",
+            "ID15",
+            "DATA_316",
+            "ID10",
+            "ID16",
+            "DATA_311",
+            "DATA_414",
+            "DATA_611",
+            "DATA_115",
+            "ID12",
+            "DATA_415"
+        ],
+        "multiclass": {
+            "accuracy": 0.9999952658912197,
+            "macro_precision": 0.9998888888888889,
+            "macro_recall": 0.999979761181947,
+            "macro_f1": 0.9999343058962725,
+            "weighted_precision": 0.9999952690472922,
+            "weighted_recall": 0.9999952658912197,
+            "weighted_f1": 0.9999952665367731,
+            "confusion_matrix": [
+                [
+                    183561,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    11199,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    1499,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    1,
+                    8234,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    3742,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2997
+                ]
+            ],
+            "classes": [
+                "Benign",
+                "DoS",
+                "Gas",
+                "RPM",
+                "Speed",
+                "SW"
+            ],
+            "per_class": {
+                "Benign": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0,
+                    "support": 183561
+                },
+                "DoS": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0,
+                    "support": 11199
+                },
+                "Gas": {
+                    "precision": 0.9993333333333333,
+                    "recall": 1.0,
+                    "f1_score": 0.9996665555185061,
+                    "support": 1499
+                },
+                "RPM": {
+                    "precision": 1.0,
+                    "recall": 0.9998785670916819,
+                    "f1_score": 0.9999392798591292,
+                    "support": 8235
+                },
+                "Speed": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0,
+                    "support": 3742
+                },
+                "SW": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0,
+                    "support": 2997
+                }
+            }
+        },
+        "binary_detection": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "false_negative_rate": 0.0,
+            "f1_score": 1.0,
+            "tp": 27672,
+            "fp": 0,
+            "tn": 183561,
+            "fn": 0
+        },
+        "latency": {
+            "single_latency_ms": 106.03295649998472,
+            "single_latency_us": 106032.95649998472
+        },
+        "training_time_sec": 20.08553385734558,
+        "cv_10fold_accuracy_mean": 0.9999949277611746,
+        "cv_10fold_accuracy_std": 8.178729142730198e-06,
+        "novel_rows_evaluation": {
+            "n_novel_total": 451,
+            "class_novel_counts": {
+                "Benign": 451
+            },
+            "novel_multiclass_accuracy": 1.0,
+            "novel_binary_tp": 0,
+            "novel_binary_fp": 0,
+            "novel_binary_tn": 451,
+            "novel_binary_fn": 0,
+            "novel_recall": 0.0,
+            "novel_fnr": 0.0,
+            "novel_benign_accuracy": 1.0
+        }
+    },
+    "L1_type_hint": {
+        "accuracy_on_attack_rows": 0.9719210754553339,
+        "n_features": 11
+    },
+    "Flat_baseline": {
+        "level_name": "Flat_baseline",
+        "n_features": 18,
+        "feature_list": [
+            "ID11",
+            "DATA_116",
+            "ID9",
+            "ID13",
+            "DATA_114",
+            "ID14",
+            "DATA_615",
+            "ID8",
+            "ID15",
+            "DATA_316",
+            "ID10",
+            "ID16",
+            "DATA_311",
+            "DATA_414",
+            "DATA_611",
+            "DATA_115",
+            "ID12",
+            "DATA_415"
+        ],
+        "multiclass": {
+            "accuracy": 0.9999952658912197,
+            "macro_precision": 0.9998888888888889,
+            "macro_recall": 0.999979761181947,
+            "macro_f1": 0.9999343058962725,
+            "weighted_precision": 0.9999952690472922,
+            "weighted_recall": 0.9999952658912197,
+            "weighted_f1": 0.9999952665367731,
+            "confusion_matrix": [
+                [
+                    183561,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    11199,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    1499,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    1,
+                    8234,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    3742,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2997
+                ]
+            ],
+            "classes": [
+                "Benign",
+                "DoS",
+                "Gas",
+                "RPM",
+                "Speed",
+                "SW"
+            ],
+            "per_class": {
+                "Benign": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0,
+                    "support": 183561
+                },
+                "DoS": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0,
+                    "support": 11199
+                },
+                "Gas": {
+                    "precision": 0.9993333333333333,
+                    "recall": 1.0,
+                    "f1_score": 0.9996665555185061,
+                    "support": 1499
+                },
+                "RPM": {
+                    "precision": 1.0,
+                    "recall": 0.9998785670916819,
+                    "f1_score": 0.9999392798591292,
+                    "support": 8235
+                },
+                "Speed": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0,
+                    "support": 3742
+                },
+                "SW": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1_score": 1.0,
+                    "support": 2997
+                }
+            }
+        },
+        "binary_detection": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "false_negative_rate": 0.0,
+            "f1_score": 1.0,
+            "tp": 27672,
+            "fp": 0,
+            "tn": 183561,
+            "fn": 0
+        },
+        "latency": {
+            "single_latency_ms": 106.03295649998472,
+            "single_latency_us": 106032.95649998472
+        },
+        "training_time_sec": 20.08553385734558,
+        "cv_10fold_accuracy_mean": 0.9999949277611746,
+        "cv_10fold_accuracy_std": 8.178729142730198e-06,
+        "novel_rows_evaluation": {
+            "n_novel_total": 451,
+            "class_novel_counts": {
+                "Benign": 451
+            },
+            "novel_multiclass_accuracy": 1.0,
+            "novel_binary_tp": 0,
+            "novel_binary_fp": 0,
+            "novel_binary_tn": 451,
+            "novel_binary_fn": 0,
+            "novel_recall": 0.0,
+            "novel_fnr": 0.0,
+            "novel_benign_accuracy": 1.0
+        }
+    }
+}

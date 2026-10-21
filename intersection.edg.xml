@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <!-- Horizontal East-West Corridors -->
+    <edge id="w_to_c" from="node_w" to="node_c" numLanes="1" width="4.8" speed="15.0"/>
+    <edge id="c_to_e" from="node_c" to="node_e" numLanes="1" width="4.8" speed="15.0"/>
+    <edge id="e_to_c" from="node_e" to="node_c" numLanes="1" width="4.8" speed="15.0"/>
+    <edge id="c_to_w" from="node_c" to="node_w" numLanes="1" width="4.8" speed="15.0"/>
+
+    <!-- Vertical North-South Corridors -->
+    <edge id="s_to_c" from="node_s" to="node_c" numLanes="1" width="4.8" speed="15.0"/>
+    <edge id="c_to_n" from="node_c" to="node_n" numLanes="1" width="4.8" speed="15.0"/>
+    <edge id="n_to_c" from="node_n" to="node_c" numLanes="1" width="4.8" speed="15.0"/>
+    <edge id="c_to_s" from="node_c" to="node_s" numLanes="1" width="4.8" speed="15.0"/>
+</edges>

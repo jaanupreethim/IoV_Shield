@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicle Types -->
+    <vType id="vtype_normal" accel="2.6" decel="4.5" sigma="0.5" length="4.8" minGap="2.5" maxSpeed="33.33" color="46,204,113"/>
+    <vType id="vtype_attacker" accel="3.0" decel="4.5" sigma="0.5" length="5.5" width="2.2" minGap="2.5" maxSpeed="36.0" color="231,76,60"/>
+
+    <!-- Routes -->
+    <route id="route_east" edges="edge_w_to_e"/>
+    <route id="route_west" edges="edge_e_to_w"/>
+
+    <!-- Continuous Vehicle Flows -->
+    <flow id="flow_normal_e" type="vtype_normal" route="route_east" begin="0" end="10000" period="4" departLane="best" departSpeed="max"/>
+    <flow id="flow_normal_w" type="vtype_normal" route="route_west" begin="0" end="10000" period="4" departLane="best" departSpeed="max"/>
+    <flow id="flow_attacker_e" type="vtype_attacker" route="route_east" begin="5" end="10000" period="18" departLane="best" departSpeed="max"/>
+    <flow id="flow_attacker_w" type="vtype_attacker" route="route_west" begin="12" end="10000" period="18" departLane="best" departSpeed="max"/>
+</routes>
